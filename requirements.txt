@@ -9,3 +9,4 @@ pdfkit
 beautifulsoup4
 requests
 scikit-learn
+xgboost
