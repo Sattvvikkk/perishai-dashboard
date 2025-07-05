@@ -8,3 +8,4 @@ openpyxl
 pdfkit
 beautifulsoup4
 requests
+scikit-learn
