@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentation>
+  <slide>
+    <title>PerishAI: Smart Shelf-Life Aware Routing for Perishable Goods</title>
+    <content>Team: [Your Team Name]
+Date: July 2025</content>
+  </slide>
+  <slide>
+    <title>Problem & Motivation</title>
+    <content>- Perishable goods often spoil before delivery, causing waste and financial loss.
+- Need for intelligent routing to maximize freshness and minimize waste.</content>
+  </slide>
+  <slide>
+    <title>Solution Overview</title>
+    <content>- AI/ML-powered pipeline for shelf-life prediction and route optimization.
+- End-to-end workflow: data simulation, modeling, prediction, optimization, and visualization.</content>
+  </slide>
+  <slide>
+    <title>Data Simulation Process</title>
+    <content>- Simulates realistic delivery data with units in all columns.
+- Features: product_type, time_in_transit (hours), temperature_exposure (°C), humidity (%), storage_conditions, shelf_life_left (days).</content>
+  </slide>
+  <slide>
+    <title>Shelf-Life Prediction Model</title>
+    <content>- XGBoost regression model.
+- Preprocessing: one-hot encoding, scaling.
+- Predicts remaining shelf life for each delivery.</content>
+  </slide>
+  <slide>
+    <title>Route Optimization Approach</title>
+    <content>- Rule-based: sort deliveries by predicted shelf life (ascending).
+- Ensures products closest to expiry are delivered first.</content>
+  </slide>
+  <slide>
+    <title>Dashboard Demo</title>
+    <content>- Streamlit dashboard shows:
+  - Optimized delivery plan
+  - Product freshness tracker
+  - Sustainability metrics (waste avoided, CO₂ saved)</content>
+  </slide>
+  <slide>
+    <title>Results & Impact</title>
+    <content>- Improved delivery efficiency and reduced waste.
+- Data-driven insights for supply chain optimization.</content>
+  </slide>
+  <slide>
+    <title>Future Work</title>
+    <content>- Integrate real-time data feeds.
+- Advanced optimization algorithms.
+- Broader sustainability metrics.</content>
+  </slide>
+  <slide>
+    <title>Q&amp;A</title>
+    <content>Questions?</content>
+  </slide>
+</presentation>

@@ -1,0 +1,56 @@
+PerishAI: Smart Shelf-Life Aware Routing for Perishable Goods
+===============================================================
+
+Slide 1: Title
+---------------
+PerishAI: Smart Shelf-Life Aware Routing for Perishable Goods
+Team: [Your Team Name]
+Date: July 2025
+
+Slide 2: Problem & Motivation
+----------------------------
+- Perishable goods often spoil before delivery, causing waste and financial loss.
+- Need for intelligent routing to maximize freshness and minimize waste.
+
+Slide 3: Solution Overview
+--------------------------
+- AI/ML-powered pipeline for shelf-life prediction and route optimization.
+- End-to-end workflow: data simulation, modeling, prediction, optimization, and visualization.
+
+Slide 4: Data Simulation Process
+-------------------------------
+- Simulates realistic delivery data with units in all columns.
+- Features: product_type, time_in_transit (hours), temperature_exposure (°C), humidity (%), storage_conditions, shelf_life_left (days).
+
+Slide 5: Shelf-Life Prediction Model
+-----------------------------------
+- XGBoost regression model.
+- Preprocessing: one-hot encoding, scaling.
+- Predicts remaining shelf life for each delivery.
+
+Slide 6: Route Optimization Approach
+------------------------------------
+- Rule-based: sort deliveries by predicted shelf life (ascending).
+- Ensures products closest to expiry are delivered first.
+
+Slide 7: Dashboard Demo
+-----------------------
+- Streamlit dashboard shows:
+  - Optimized delivery plan
+  - Product freshness tracker
+  - Sustainability metrics (waste avoided, CO₂ saved)
+
+Slide 8: Results & Impact
+-------------------------
+- Improved delivery efficiency and reduced waste.
+- Data-driven insights for supply chain optimization.
+
+Slide 9: Future Work
+--------------------
+- Integrate real-time data feeds.
+- Advanced optimization algorithms.
+- Broader sustainability metrics.
+
+Slide 10: Q&A
+-------------
+Questions?

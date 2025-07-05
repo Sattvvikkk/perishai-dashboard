@@ -1,0 +1,10 @@
+streamlit
+pandas
+plotly
+numpy
+joblib
+pydeck
+openpyxl
+pdfkit
+beautifulsoup4
+requests

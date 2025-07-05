@@ -1,0 +1,21 @@
+delivery_id,product_type,time_in_transit (hours),temperature_exposure (°C),humidity (%),storage_conditions,predicted_shelf_life (days),predicted_shelf_life
+DELV005,lettuce,31.2,25.0,60.1,frozen,-0.13544178,-0.13544178
+DELV003,milk,42.7,33.8,61.5,vacuum,0.00044003644,0.00044003644
+DELV002,banana,30.5,23.9,59.5,dry,0.3601622,0.3601622
+DELV006,apple,32.1,24.6,82.5,humidified,1.162857,1.162857
+DELV016,apple,26.9,21.0,59.0,dry,2.8051069,2.8051069
+DELV009,apple,37.9,11.4,87.2,cold,4.1509843,4.1509843
+DELV010,yogurt,32.3,32.5,62.5,dry,5.6755385,5.6755385
+DELV008,yogurt,43.3,19.6,56.6,controlled atmosphere,6.8201666,6.8201666
+DELV020,yogurt,47.3,34.2,82.2,humidified,7.1858454,7.1858454
+DELV001,yogurt,22.6,24.4,43.3,controlled atmosphere,8.005722,8.005722
+DELV015,banana,25.3,23.5,48.3,frozen,19.31211,19.31211
+DELV019,chicken,33.2,16.9,41.6,ambient,20.360752,20.360752
+DELV013,yogurt,4.8,19.7,63.9,frozen,22.992296,22.992296
+DELV017,lettuce,11.7,22.3,78.7,dry,25.294493,25.294493
+DELV012,yogurt,11.7,18.8,40.5,cold,25.307575,25.307575
+DELV004,lettuce,4.6,15.3,64.7,humidified,25.468138,25.468138
+DELV011,apple,7.1,11.4,59.2,cold,25.880718,25.880718
+DELV014,milk,8.1,9.4,85.6,cold,26.277538,26.277538
+DELV007,cheese,36.4,8.1,64.9,cold,50.200157,50.200157
+DELV018,cheese,27.7,33.8,66.5,ambient,50.200157,50.200157
